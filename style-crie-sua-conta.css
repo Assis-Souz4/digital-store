@@ -1,0 +1,239 @@
+body {
+  background: linear-gradient(180deg, #b5b6f2 0%, #efefff 100%);
+  background-repeat: unset;
+}
+header {
+  height: 80px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 100px;
+}
+header,
+figure {
+  align-items: center;
+  display: flex;
+}
+header > h1 {
+  color: rgba(201, 32, 113, 1);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.01em;
+}
+main {
+  background-color: #fff;
+  width: 583px;
+  height: 399px;
+  margin: 200px 758px 0 100px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+h2 {
+  color: rgba(31, 31, 31, 1);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+}
+main > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  align-items: center;
+  color: rgba(71, 71, 71, 1);
+}
+main p a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(71, 71, 71, 1);
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form > label {
+  color: rgba(71, 71, 71, 1);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+}
+input {
+  height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(102, 102, 102, 1);
+  opacity: 50%;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  border: 0;
+  background: #cdc9c9;
+}
+form > button {
+  width: auto;
+  height: 40px;
+  background-color: rgba(201, 32, 113, 1);
+  border: none;
+  border-radius: 8px;
+  color: lightgray;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+.rede-social {
+  display: flex;
+  gap: 30px;
+  align-self: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(71, 71, 71, 1);
+  flex-grow: 0;
+}
+.tenis {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  top: 300px;
+  left: 760px;
+}
+.tenis-01 img {
+  width: auto;
+  height: auto;
+}
+.tenis-02 img {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 150px;
+  left: 260px;
+}
+footer {
+  margin-top: 324px;
+  background-color: rgba(31, 31, 31, 1);
+  width: auto;
+  height: 454px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+footer > section {
+  padding-top: 72px;
+}
+.conteiner-digital-store {
+  display: flex;
+  align-items: center;
+  padding-left: 104px;
+}
+.conteiner-digital-store > img {
+  width: 33px;
+  height: 33px;
+  margin-right: 8px;
+}
+.conteiner-digital-store > h3 {
+  font-size: 36px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 44px;
+}
+.conteiner-digital-store-paragrafo {
+  width: 314px;
+  height: 78px;
+  margin-top: 45px;
+  margin-left: 100px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+}
+.conteiner-digital-store-redes-sociais {
+  display: flex;
+  gap: 35px;
+  padding-top: 50px;
+}
+.conteiner-informacao {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  margin-left: 180px;
+  width: 160px;
+  height: 290px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 38px;
+}
+.conteiner-informacao > h3 {
+  padding-bottom: 28px;
+}
+.conteiner-informacao,
+ul a,
+li {
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+}
+.conteiner-categorias {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  margin-left: 180px;
+  width: 160px;
+  height: 290px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 38px;
+}
+.conteiner-categorias h3 {
+  color: #fff;
+  padding-bottom: 28px;
+}
+.conteiner-contato {
+  width: 220px;
+  height: 290px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 38px;
+  margin-top: 10px;
+  margin-left: px;
+  margin-left: 98px;
+}
+.conteiner-contato h3 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  padding-bottom: 28px;
+}
+.conteiner-contato a {
+  color: #fff;
+  text-decoration: none;
+}
+.conteiner-contato p:first-child {
+  padding-bottom: 14px;
+}
+.divisao-rodape {
+  border-top: 2px solid color;
+}
+.divisao-rodape {
+  border: 1px solid #fff;
+  position: absolute;
+  top: 380px;
+  width: 1300px;
+  left: 100px;
+  align-content: center;
+  opacity: 30%;
+}
+.copyright {
+  position: absolute;
+  top: 408px;
+  left: 650px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  color: #fff;
+}
